@@ -17,8 +17,7 @@ function renderCharacter(item) {
             <p>${'Number of comics: ' + characters.comics.available}</p>
         </a>
         </div>
-       `
-        
+       `    
         console.log(characters)
         listCharacters.html(result)
     }
